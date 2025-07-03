@@ -18,7 +18,7 @@ app.get("/potato", (req, res) => {
 });
 
 app.get("/Home", (req, res) => {
-  res.send("Mr Pigs bacon restaaruant!");
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 
