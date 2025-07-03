@@ -8,13 +8,13 @@
 <link rel>"stylesheet" href="style.css"
 </head>
 <body>
-h1{color:#462f2f;}
-h1 {text-align: center;}
-h1 {background-color: #fee6e3}
-.code-header {border: #7f6966 solid 5px;}
-.code-header{border-radius: 15px}
+<h1>{color:#462f2f;}
+<h1> {text-align: center;}
+<h1> {background-color: #fee6e3}
+<code-header> {border: #7f6966 solid 5px;}
+<code-header>{border-radius: 15px}
 
-background: #CDD0F8
+<background> #CDD0F8
   );
 
 </body>
