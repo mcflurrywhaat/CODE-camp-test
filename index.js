@@ -5,11 +5,11 @@ const port = 3000;
 
 app.use(express.static("."));
 
-app.get("/about", (req, res) => {
+app.get("/CODE-camp-test/about", (req, res) => {
   res.sendFile(path.join(__dirname, "about.html"));
 });
 
-app.get("/contact", (req, res) => {
+app.get("/CODE-camp-test/contact", (req, res) => {
   res.sendFile(path.join(__dirname, "contact.html"));
 });
 
@@ -23,7 +23,7 @@ app.get("/CODE-camp-test", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-app.get("/review", (req, res) => {
+app.get("/CODE-camp-test/review", (req, res) => {
   res.sendFile(path.join(__dirname, "review.html"));
 });
 
