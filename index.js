@@ -5,23 +5,6 @@ const port = 3000;
 
 app.use(express.static("."));
 
-app.get("/world", (req, res) => {
-  res.send("Hello World!");
-});
-
-app.get("/bananaSplit", (req, res) => {
-  res.send("i really really like banana and ice cream!");
-});
-
-app.get("/potato", (req, res) => {
-  res.send("this is not it vro get yo stuff together NOW!!");
-});
-
-app.get("/Home", (req, res) => {
-  res.send("Mr Pigs bacon restaaruant!");
-});
-
-
 app.get("/about", (req, res) => {
   res.sendFile(path.join(__dirname, "about.html"));
 });
