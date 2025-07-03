@@ -33,11 +33,11 @@ app.get("/contact", (req, res) => {
 app.use(express.static(__dirname));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/home1.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "home1.html"));
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.get("/review", (req, res) => {
